@@ -46,6 +46,36 @@ To test our deposit function, we will make 3 separate deposits and use the `cont
   * Transaction 5: Withdraw 10 Ether as Wei to account2.
 
   ![Withdrawal two](https://github.com/asabeti/Module_20_Smart_Contract_Joint_Savings/blob/main/Execution_Results/Withdraw%2010%20Eth.png)
+  
+ _As we can see from the examples above, the functionality of our smart contract joint savings account is successful!_
+ 
+ ---
+
+## Technologies
+
+This application was written in Python 3.7 using the following dependencies:
+1. [Solidity](https://soliditylang.org/) (^0.5.0) - Smart contract development
+2. [Remix](https://remix.ethereum.org/) - Solidity development environment
+
+---
+
+## Installation and Usage
+* If you would like to use this contract yourself, clone the repository on your local machine by typing `git clone https://github.com/asabeti/Module_20_Smart_Contract_Joint_Savings.git`
+* Select the "0.5.0+commit.1d4f565a" compiler to compile the smart contract in the "Remix VM (London or Berlin)" to deploy the contract in your environment.
+
+---
+
+## Contributors
+
+* Brought to you by *Audell Sabeti*
+* Business: audellsabeti@compacific.com
+* Personal: asabeti@outlook.com
+
+---
+
+## License
+
+MIT
 
  
   
