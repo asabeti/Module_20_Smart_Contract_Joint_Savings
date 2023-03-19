@@ -22,14 +22,34 @@ Using [Remix](https://remix-project.org/), the smart contract can be compiled in
 
 ![Screenshot of initial contract on Remix UI with setAccounts, withdraw, contractBalance, lastToWithdraw, and lastWithdraw functions](https://github.com/asabeti/Module_20_Smart_Contract_Joint_Savings/blob/main/Execution_Results/Set%20Accounts%20Step%201.png)
 
-Using the `deposit` function in Remix will fund the savings account.
-To test our deposit function, we will make 3 separate deposits.
+Using the `deposit` function in Remix will fund the joint savings account.
+To test our deposit function, we will make 3 separate deposits and use the `contractBalance` function after each transaction to verify that the funds were added to your contract.
   * Transaction 1: Deposit 1 Ether as Wei.
+  
   ![Deposit one](https://github.com/asabeti/Module_20_Smart_Contract_Joint_Savings/blob/main/Execution_Results/Transaction%201.png)
+  
   * Transaction 2: Deposit 10 Ether as Wei.
+  
   ![Deposit two](https://github.com/asabeti/Module_20_Smart_Contract_Joint_Savings/blob/main/Execution_Results/Transaction%202.png)
+  
   * Transaction 3: Deposit 5 Ether.
+  
   ![Deposit three](https://github.com/asabeti/Module_20_Smart_Contract_Joint_Savings/blob/main/Execution_Results/Transaction%203.png)
+  
+ With 16 ETH now deposited into the joint savings account, we can now test the `withdraw` function.
+ To do so, we will make 2 separate withdrawals into each account. 
+ (Note: the user is able to use the `lastToWithdraw` and `lastWithdrawAmount` functions to verify that the address and amounts were correct.)
+  * Transaction 4:  Withdraw 5 Ether as Wei to account1.
+  
+  ![Withdrawal one](https://github.com/asabeti/Module_20_Smart_Contract_Joint_Savings/blob/main/Execution_Results/Withdraw%205%20Eth.png)
+  
+  * Transaction 5: Withdraw 10 Ether as Wei to account2.
+
+  ![Withdrawal two](https://github.com/asabeti/Module_20_Smart_Contract_Joint_Savings/blob/main/Execution_Results/Withdraw%2010%20Eth.png)
+
+ 
+  
+ 
 
 
 
